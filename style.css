@@ -1,0 +1,91 @@
+.dropdown-item img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+}
+
+.dropdown-menu button{
+    font-size: 14px;
+    background-color: gray;
+}
+
+.menu-item{
+    display: inline;
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+    .nav-item button{
+        border: 1px solid white;
+        margin: 3%;
+        width: 100%;
+    }
+
+    .dropdown-menu button{
+        width: 93%;
+    }
+
+    #prime button{
+    
+        margin-top: 2%;
+        
+    }
+
+   
+}
+
+
+.about{
+    border: 2px solid black;
+    background-image: url(https://wallpaperaccess.com/full/38123.jpg);
+    background-size: 100% 100%;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 600px){
+    .touch{
+        display: none;
+    }
+
+    .label2{
+        display: block;
+        width: 100%;
+        
+    }
+
+    .label1{
+        display: none;
+    }
+}
+
+.col-lg-2{
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+
+.label{
+    margin: 15%;
+}
+
+.social-icons{
+    padding: 4%;
+}
+
+.social-icons a{
+    padding: 10px;
+}
+
+@media only screen and (min-width: 600px){
+    .label2{
+        display: none;
+    }
+    .label1{
+        display: block;
+    }
+}
